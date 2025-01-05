@@ -2,10 +2,10 @@
 # The Tourist Observer Lab Collection
 Welcome to the Tourist Observer Lab Collection! This repository is a design patterns project that I've worked on during my sophomore year at the Milwaukee School of Engineering!
 
-# Lab 3 | Tourist Observer
+## Lab 3 | Tourist Observer
 In this lab, I have implemented the observer pattern and ensure that it when it enters a museum, the artwork is displayed. 
 
-## Lab Introduction
+### Lab Introduction
 A common travel game is to find the letters in a word on the license plates of vehicles that you see on the road. For example,
 the license plates ATT-351 and CPO-OO3 would be sufficient to match “CAT”.
 
@@ -24,7 +24,7 @@ The code is given to draw the actors on the map. It is essential to implement a 
 completing challenges. For this part, the following challenge must be done:
 - Enter the Art Museum
 
-## The Challenge
+### The Challenge
 In this challenge, the game displays a picture of The Wood Gatherer whenever the person enters the rectangle representing the location
 of the Milwaukee Art Museum (MAM). This picture is shown in the status area on the right hand side of the screen.
 
@@ -33,7 +33,7 @@ it will display the woodcutter image. The woodcutter image is available in the r
 code for loading it after the code that loads the images for the cars, buses, and person.
 
 
-## Design Requirements
+### Design Requirements
 - [x] Begin by sketching a minimal solution diagram (or another diagram if required by your instructor) that illustrates the
   Observer pattern for the challenge you are implementing. As you sketch this diagram, think about how the responsibilities of
   the classes will change.
@@ -57,7 +57,7 @@ code for loading it after the code that loads the images for the cars, buses, an
 - [x] Make sure how you are using the pattern isolates your observers and your subjects. There should be very little communication between
   your observers and your subjects.
 
-## Constraint Requirements
+### Constraint Requirements
 Your design must satisfy the following constraints:
 - [x] The challenges should be observers, and you will need to create a subject (not TagEvent) as a separate class.
 - [x] The subject and observer cannot be the same class.
@@ -67,7 +67,7 @@ Your design must satisfy the following constraints:
   classes to tie them into the new classes you add to support the strategies. 
 
 
-## Implementation Needs
+### Implementation Needs
 A major part of this assignment is implementing the Observer Pattern. You are to write your own classes implementing this pattern:
 - [x] Do not use ```Java.util.Observable``` or ```Java.util.Observer```. You may use your own names for the Observer Pattern; it may be
   helpful
@@ -77,10 +77,10 @@ A major part of this assignment is implementing the Observer Pattern. You are to
   ```CityMap.addEntities()``` to support the new challenge. In particular, new GUI code should not be added to the CityMap.
 - [x] Check that ```CityMap.DEBUG_LEVEL``` is 0 so any debug code is disabled. 
 
-# Lab 4 | Tourist Observer
+## Lab 4 | Tourist Observer
 In this lab, you will implement the MSOE Challenge and the BUS Challenge
 
-## The MSOE Challenge
+### The MSOE Challenge
 This challenge involves finding the word "MSOE" by tagging cars with those letters anywhere in their license plates. Here are the
 following requirements to be satisfied:
 - [x] The challenge should be available from the start of the game and is signaled by the message
@@ -89,7 +89,7 @@ following requirements to be satisfied:
 - [x] When the user has found all four letters, display the message "MSOE CHALLENGE COMPLETED", replacing the message showing
   which of the "MSOE" letters have been found
 
-## The Easter Egg Challenge
+### The Easter Egg Challenge
 Here are the following requirements to be satisfied:
 - [x] The user only discovers this challenge once the person tags a Bus.
 - [x] The message for this challenge "Challenge: Find all letters in "BUS"
