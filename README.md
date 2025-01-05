@@ -1,12 +1,11 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/YIEa2Fm0)
 
-# Week-Three-Lab
+# The Tourist Observer Lab Collection
+Welcome to the Tourist Observer Lab Collection! This repository is a design patterns project that I've worked on during my sophomore year at the Milwaukee School of Engineering!
 
-# Lab 3: Tourist Observer
-In this lab, you will implement the observer pattern and ensure that it when it enters a museum, the artwork is displayed. 
+# Lab 3 | Tourist Observer
+In this lab, I have implemented the observer pattern and ensure that it when it enters a museum, the artwork is displayed. 
 
-
-## Introduction
+## Lab Introduction
 A common travel game is to find the letters in a word on the license plates of vehicles that you see on the road. For example,
 the license plates ATT-351 and CPO-OO3 would be sufficient to match “CAT”.
 
@@ -32,7 +31,6 @@ of the Milwaukee Art Museum (MAM). This picture is shown in the status area on t
 When the program starts up, it will display just the message Challenge: Find art in the status area. Once the user enters the museum,
 it will display the woodcutter image. The woodcutter image is available in the repository folder src/mketour/img. You can model the
 code for loading it after the code that loads the images for the cars, buses, and person.
-
 
 
 ## Design Requirements
@@ -79,9 +77,7 @@ A major part of this assignment is implementing the Observer Pattern. You are to
   ```CityMap.addEntities()``` to support the new challenge. In particular, new GUI code should not be added to the CityMap.
 - [x] Check that ```CityMap.DEBUG_LEVEL``` is 0 so any debug code is disabled. 
 
-# Week-Four-Lab
-
-# Lab 4: Tourist Observer
+# Lab 4 | Tourist Observer
 In this lab, you will implement the MSOE Challenge and the BUS Challenge
 
 ## The MSOE Challenge
