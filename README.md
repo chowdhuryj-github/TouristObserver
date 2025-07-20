@@ -1,4 +1,6 @@
 
+![Bucks](assets/banners.gif)
+
 # The Tourist Observer Lab Collection
 Welcome to the Tourist Observer Lab Collection! This repository is a design patterns project that I've worked on during my sophomore year at the Milwaukee School of Engineering!
 
